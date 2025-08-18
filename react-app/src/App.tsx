@@ -1,12 +1,12 @@
-import ListGroup from './components/ListGroup';
-
+import ListGroup from "./components/ListGroup";
 
 function App() {
-    return (
-        <div className="App">
-            
-        <ListGroup /></div>
-    );
+  let items = ["Munchy", "Inverted", "Isaac", "Tikkalawl"];
+  return (
+    <div className="App">
+      <ListGroup items={items} heading="People" />
+    </div>
+  );
 }
 
 export default App;
